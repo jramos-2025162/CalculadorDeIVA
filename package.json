@@ -1,0 +1,26 @@
+{
+  "name": "CalculodeIVA",
+  "version": "1.0.0",
+  "description": "Calculadora de IVA en TypeScript",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "Jancarlo Ramos",
+  "license": "ISC",
+  "packageManager": "pnpm@10.29.2",
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "@types/readline-sync": "^1.4.8",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
